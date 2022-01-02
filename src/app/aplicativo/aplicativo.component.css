@@ -1,0 +1,33 @@
+.app{
+    padding: 2rem 5rem;
+    margin-top: 2rem;
+    background-color: var(--color-light-blue);
+    display: flex;
+    align-items: center;
+}
+.app-esq{
+    width: 60%;
+}
+.app-esq-text h2{
+    font-size: 2rem;
+}
+.app-esq-text p{
+   color: var(--color-gray);
+   width: 60%;
+}
+.app-esq-btn{
+    display: flex;
+}
+.app-esq-btn a:last-child{
+    margin-left: 2rem;
+}
+.app-esq-btn img:hover{
+   cursor: pointer;
+}
+.app-dir{
+    width: 40%;
+}
+.app-dir img{
+    width: 100%;
+    height: auto;
+}

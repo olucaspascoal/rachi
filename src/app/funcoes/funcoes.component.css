@@ -1,0 +1,21 @@
+.funcoes{
+    padding: 2rem 5rem;
+}
+.funcoes h2{
+    text-align: center;
+}
+.funcoes-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+.funcoes-box-item{
+    width: 30%;
+    text-align: center;
+}
+.funcoes-box-item p{
+    color: var(--color-gray);
+    width: 60%;
+    margin: auto;
+}

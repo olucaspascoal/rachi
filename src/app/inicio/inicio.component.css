@@ -1,0 +1,37 @@
+.inicio{
+    display: flex;
+    align-items: center;
+    background-color: var(--color-light-blue);
+    /* height: 70vh; */
+    padding: 0 5rem;
+}
+.inicio-esq{
+    width: 50%;
+}
+.inicio-esq-text{
+    width: 70%;
+}
+.inicio-esq-text h1{
+    margin-block: 0;
+    color: var(--color-black);
+}
+.inicio-btn{
+    margin-top: 2rem;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+    width: 25%;
+    text-align: center;
+    color: var(--color-white);
+    background-color: var(--color-blue);
+}
+.inicio-btn:hover{
+    cursor: pointer;
+}
+
+.inicio-dir{
+    width: 50%;
+}
+.inicio-dir img{
+    width: 100%;
+    height: auto;
+}

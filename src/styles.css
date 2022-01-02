@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600&display=swap');
+
+:root{
+    --color-white:     #FFFFFF;
+    --color-blue:      #0F9AFE;
+    --color-light-blue:#EFF8FF;
+    --color-gray: #6E7275;
+    --color-black: #293145;
+}
+
+body{
+    margin: 0;
+    font-family: 'Sora', sans-serif;
+}

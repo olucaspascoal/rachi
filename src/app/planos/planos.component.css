@@ -1,0 +1,76 @@
+.planos{
+    padding: 2rem 5rem;
+}
+
+.planos .planos-text h2{
+    text-align: center;
+}
+.planos .planos-text p{
+    color: var(--color-gray);
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.planos-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+.planos-box-item{
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-light-blue);
+}
+.planos-box-item:nth-child(2){
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+.planos-box-item h2{
+    padding-top: 2rem;
+}
+.planos-box-item h3{
+    font-size: 3rem;
+    margin-block: 0;
+    margin: 1rem 0;
+    font-family: 'Roboto', sans-serif;
+}
+.planos-box-item h3::before{
+    content: 'R$';
+    /* position: relative; */
+    font-size: 1rem;
+}
+.planos-box-item h3::after{
+    content: '/mês';
+    font-size: 1rem;
+}
+.planos-box-item p {
+    color: var(--color-gray);
+    padding: 0 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+.planos-box-item-btn{
+    padding: .5rem 4rem;
+    border-radius: 50px;
+    color: var(--color-white);
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--color-blue);
+    margin: 3rem 0;
+}
+.planos-box-item-btn:hover{
+    cursor: pointer;
+}
+
+
+.preferido::after{
+    content: 'PREFERIDO';
+    text-align: center;
+    background-color: var(--color-blue);
+    padding: .3rem 2rem;
+    border-radius: 20px;
+    letter-spacing: .2rem;
+}

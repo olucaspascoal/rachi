@@ -18,6 +18,8 @@ Link para visualização: http://rachi.olucaspascoal.com
 - [x] Angular
 - [x] Angular CLI v13.1.2
 
+Tempo médio: 02:20:00
+
 ## :computer: Design
 ![rachi](https://user-images.githubusercontent.com/66574231/147998056-71b264b9-3d31-40ec-93e7-f935d0709564.png)
 

@@ -6,8 +6,9 @@
     --color-white:     #FFFFFF;
     --color-blue:      #0F9AFE;
     --color-light-blue:#EFF8FF;
-    --color-gray: #6E7275;
-    --color-black: #293145;
+    --color-gray:      #6E7275;
+    --color-light-gray:#DBDBDB;
+    --color-black:     #293145;
 }
 
 body{

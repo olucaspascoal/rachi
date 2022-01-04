@@ -35,3 +35,24 @@
     width: 100%;
     height: auto;
 }
+
+@media only screen and (max-width: 760px) {
+    .inicio{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .inicio-esq{
+        width: 100%;
+        order: 2;
+    }
+    .inicio-esq-text{
+        width: 100%;
+    }
+    .inicio-btn{
+        width: 50%;
+    }
+    .inicio-dir{
+        width: 100%;
+        order: 1;
+    }
+}

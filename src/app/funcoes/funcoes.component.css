@@ -19,3 +19,18 @@
     width: 60%;
     margin: auto;
 }
+@media only screen and (max-width: 760px) {
+    .funcoes{
+        padding: 1rem;
+    }
+    .funcoes-box{
+        flex-direction: column;
+    }
+    .funcoes-box-item{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .funcoes-box-item h3{
+        margin: 0;
+    }
+}

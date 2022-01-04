@@ -31,3 +31,28 @@
     width: 100%;
     height: auto;
 }
+
+@media only screen and (max-width: 760px) {
+    .app{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .app-esq{
+        order: 2;
+        width: 100%;
+    }
+    .app-esq-text p{
+        width: 100%;
+    }
+    .app-esq-btn{
+        flex-direction: column;
+        align-items: center;
+    }
+    .app-esq-btn a:last-child{
+        margin-left: 0;
+    }
+    .app-dir{
+        order: 1;
+        width: 70%;
+    }
+}

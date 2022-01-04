@@ -41,7 +41,7 @@
 }
 .planos-box-item h3::before{
     content: 'R$';
-    /* position: relative; */
+    vertical-align: super;
     font-size: 1rem;
 }
 .planos-box-item h3::after{
@@ -73,4 +73,34 @@
     padding: .3rem 2rem;
     border-radius: 20px;
     letter-spacing: .2rem;
+}
+
+@media only screen and (max-width: 760px) {
+    .planos{
+        padding: 1rem;
+    }
+    .planos .planos-text p{
+        width: 100%;
+    }
+    .planos-box{
+        flex-direction: column;
+    }
+    .planos-box-item{
+        width: 80%;
+        margin: auto;
+    }
+    .planos-box-item p{
+        padding: 0 .5rem;
+    }
+    .planos-box-item:nth-child(2){
+        order: 1;
+    }
+    .planos-box-item:nth-child(1){
+        order: 2;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .planos-box-item:nth-child(3){
+        order: 3;
+    }
 }
